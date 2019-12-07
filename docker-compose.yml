@@ -1,6 +1,7 @@
 version: "3"
 services:
   go-rest-proj-1:
+    image: go-rest-proj-1:v1
     build:
       context: ./
     ports:
